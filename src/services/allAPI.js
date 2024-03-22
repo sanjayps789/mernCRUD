@@ -6,7 +6,6 @@ export const regiserAPI = async(user)=>{
     return await commonAPI('POST',`${SERVER_URL}/api/register`,user,"")
 }
 
-
 // login API
 export const loginAPI = async(user)=>{
     return await commonAPI('POST',`${SERVER_URL}/api/login`,user,"")
