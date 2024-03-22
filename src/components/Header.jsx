@@ -9,7 +9,7 @@ function Header() {
         <ul class="flex items-center justify-end">
             <Link to={'/'} class="mr-10 text-decoration-none">Home</Link>
            <Link to={'/profile'} class="mr-10">Profile</Link>
-           <Link to={'login'} class="mr-10"></Link>
+           <Link to={'login'} class="mr-10">SignIn/SignUp</Link>
         </ul>
     </section>
 </header>
